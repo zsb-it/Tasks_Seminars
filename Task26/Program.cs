@@ -21,4 +21,4 @@ int NumbersCount(int num)
 }
 
 int numbersCount = NumbersCount(number);
-Console.WriteLine($"Количчество цифр в числе {number} -> {numbersCount}");
+Console.WriteLine($"Количество цифр в числе {number} -> {numbersCount}");
