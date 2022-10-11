@@ -27,7 +27,7 @@
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int factorial = Factorial(number);
+long factorial = Factorial(number);
 Console.WriteLine($"Произведение чисел от 1 до {number} -> {factorial} ");
 
 long Factorial(long num)
