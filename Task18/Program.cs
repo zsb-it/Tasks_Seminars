@@ -4,9 +4,9 @@
 
 Console.WriteLine("Введите номер четверти");
 Console.Write("Четверть: ");
-string quart = Console.ReadLine();
+string? quart = Console.ReadLine();
 
-string coordinates = Coordinates(quart);
+string coordinates = Coordinates($"{quart}");
 Console.WriteLine(coordinates);
 
 string Coordinates(string quarter)
