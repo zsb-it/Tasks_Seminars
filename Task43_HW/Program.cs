@@ -34,5 +34,5 @@ void PrintIntersectionPoint(double[] intersectionPoint)
     Console.Write($" - > ({intersectionPoint[i]} ; {intersectionPoint[i++]})");
 }
 
-IntersectionPoint(numberB1, numberK1, numberB2, numberK2);
-PrintIntersectionPoint(IntersectionPoint(numberB1, numberK1, numberB2, numberK2));
+double[] intersectionPoint = IntersectionPoint(numberB1, numberK1, numberB2, numberK2);
+PrintIntersectionPoint(intersectionPoint);
