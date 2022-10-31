@@ -30,14 +30,14 @@ void PrintArray(int[] array)
 int SumOddNumber(int[] array)
 {
     int sumOdd = 0;
-    for (int i = 0; i < array.Length; i = i + 2)
+    for (int i = 1; i < array.Length; i = i + 2)
     {
         sumOdd = sumOdd + array[i];
     }
     return sumOdd;
 }
 
-int[] arr = CreateArrayRndInt(3, 0, 99);
+int[] arr = CreateArrayRndInt(4, 0, 99);
 PrintArray(arr);
 
 int sumOddNumber = SumOddNumber(arr);
