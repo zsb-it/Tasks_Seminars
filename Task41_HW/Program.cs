@@ -12,7 +12,7 @@ string[] numbersMassive;                                // Создаем стр
 string? number = Console.ReadLine();                    // Получаем от пользователя набор цифр
 
 // Заполняем массив полученными цифрами, используя в качестве разделителя ","
-numbersMassive = number.Split(',');                     // Что значит "разыменование пустой ссылки"?                  
+numbersMassive = number!.Split(',');                     // Что значит "разыменование пустой ссылки"? Нужно было поставить "!" после number                 
 
 int[] countNumbers = new int[numbersMassive.Length];    // Создаем числовой массив размером со строковый
 
